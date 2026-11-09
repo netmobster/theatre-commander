@@ -1,10 +1,10 @@
 # Factions and Colours
-## Four-tone faction palette — v0.2
+## Approved four-tone faction palettes — v1.0
 
-**Status:** Proposed working palette, 9 November 2026  
-**Sample asset:** Infantry miniature, repeated across all six factions
+**Status:** Palette approved, 9 November 2026  
+**Scope:** Faction colour values only. Unit sample artwork is not approved and is not a visual standard.
 
-Every faction uses the same four-role paint system. This gives units consistent visual depth and makes faction variants easy to produce from shared silhouettes.
+These are the canonical faction colours for Theatre Commander. Use the exact hex values below as the source of truth.
 
 | Faction | Dark | Light (base) | Highlight | Shadow |
 |---|---|---|---|---|
@@ -18,17 +18,11 @@ Every faction uses the same four-role paint system. This gives units consistent 
 ## Colour roles
 
 - **Dark:** secondary painted surfaces, structural details, equipment and strong colour accents.
-- **Light:** primary faction identity on the unit body and major painted surfaces.
+- **Light (base):** primary faction identity on the unit body and major painted surfaces.
 - **Highlight:** raised edges, light-facing surfaces and restrained visual emphasis.
 - **Shadow:** deep recesses, undersides and separation between overlapping forms.
 
 Shadow is deliberately darker than Dark. It is not simply another faction colour.
-
-## Sample piece: infantry
-
-Use one shared infantry silhouette, equipment layout, base, camera and lighting setup for all six variants. Change only faction paint, insignia and small historically appropriate details.
-
-The sample should be reviewed at actual map scale as well as enlarged. If the faction identity disappears when reduced, the palette or silhouette needs adjustment.
 
 ## Application rules
 
@@ -37,7 +31,7 @@ The sample should be reviewed at actual map scale as well as enlarged. If the fa
 - Do not use faction colours for damage, selection, supply or entrenchment states.
 - Use shape, iconography or patterns in addition to colour.
 - Keep insignia readable but subordinate to the unit silhouette.
-- Validate all six palettes side-by-side on both light and dark map surfaces and under fog of war.
+- Validate the palette on both light and dark map surfaces and under fog of war.
 
 ## State overlays remain separate
 
@@ -50,14 +44,8 @@ The sample should be reviewed at actual map scale as well as enlarged. If the fa
 | Fog of war | Desaturation and concealment |
 | Contested | Explicit contested marker or border |
 
-## Validation checklist
+## Asset direction
 
-- Test all six infantry variants together at gameplay scale.
-- Confirm every faction remains distinguishable in grayscale and common colour-vision simulations using shape and insignia support.
-- Check highlight contrast without making units look metallic or glossy by default.
-- Check shadow detail against dark terrain.
-- Confirm the same four-tone logic works on tanks, aircraft, ships and infrastructure.
+The earlier generated infantry samples were not satisfactory and are **not approved**. They do not define unit modelling, historical detail, material treatment, lighting, pose or production quality.
 
-## Visual reference
-
-The companion faction palette board uses infantry as the sample piece across all six factions. The board is a direction-setting reference; this document's hex values are the source of truth.
+The four-tone palette above is approved independently of those samples. Future unit art should use these exact faction colours, but must be reviewed and approved on its own merits.
