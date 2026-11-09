@@ -1,59 +1,56 @@
 # Unit Catalogue
-## Baseline roster — v0.1
+## Original Axis & Allies (Classic) roster — v1.0
 
-**Purpose:** Establish a familiar Axis & Allies-inspired unit vocabulary before designing rules, models or faction-specific variants.
+**Scope:** Match the original Milton Bradley Axis & Allies / Classic unit set only. Do not import units introduced in later editions.
 
-This is a starting catalogue, not a final balance specification. Exact unit availability, costs, movement, attack, defence, production requirements and theatre restrictions remain open.
+The original game has **10 unit / piece types**:
 
-## Land forces
+## Land units
 
-| Unit | Role / identity |
+| Unit | Original-game name |
 |---|---|
-| Infantry | Basic territory-holding and defensive ground force |
-| Artillery | Ground support; improves the effectiveness of other land forces |
-| Mechanized infantry | Mobile infantry able to keep pace with armoured formations |
-| Tank / armour | Mobile breakthrough and exploitation force |
-| Anti-aircraft artillery | Area air defence |
+| Infantry | Infantry |
+| Armour | Armor |
+| Anti-aircraft gun | Antiaircraft gun |
 
-## Air forces
+## Air units
 
-| Unit | Role / identity |
+| Unit | Original-game name |
 |---|---|
-| Fighter | Air superiority, interception and escort |
-| Tactical bomber | Close support and attacks on battlefield targets |
-| Strategic bomber | Long-range attacks against industrial and strategic targets |
+| Fighter | Fighter |
+| Bomber | Bomber |
 
-## Naval forces
+## Naval units
 
-| Unit | Role / identity |
+| Unit | Original-game name |
 |---|---|
-| Transport | Carries ground forces across water |
-| Submarine | Stealth, commerce disruption and naval attack |
-| Destroyer | Escort, anti-submarine warfare and fleet screening |
-| Cruiser | General-purpose surface combatant |
-| Battleship | Heavy surface combatant and shore bombardment |
-| Aircraft carrier | Mobile air power and fleet projection |
+| Aircraft carrier | Aircraft carrier |
+| Battleship | Battleship |
+| Submarine | Submarine |
+| Transport | Transport |
 
 ## Infrastructure
 
-| Asset | Role / identity |
+| Piece | Original-game name |
 |---|---|
-| Industrial complex | Enables unit production and reinforcement |
-| Airbase | Supports air operations and basing |
-| Naval base | Supports naval operations and basing |
+| Industrial complex | Industrial complex |
 
-## Catalogue principles
+## Explicitly excluded from the original roster
 
-1. Start with recognizable silhouettes and roles.
-2. Reuse the same base silhouettes across factions; faction identity comes from colour, insignia and restrained detailing.
-3. Define mechanical statistics separately from visual identity.
-4. Do not multiply unit types before the core game loop requires them.
-5. Mark scenario-specific or optional units explicitly rather than quietly expanding the baseline roster.
+These belong to later Axis & Allies editions and are not part of this baseline:
 
-## Open questions
+- Artillery
+- Mechanized infantry
+- Tactical bomber (the original has a single Bomber type)
+- Cruiser
+- Destroyer
+- Airbase
+- Naval base
 
-- Are anti-aircraft units mobile field units, static installations, or both?
-- Do artillery and tactical bombers retain classic support relationships?
-- Are carriers represented with embarked aircraft as separate units?
-- Are infrastructure assets placed on territories, bases, or both?
-- Which unit types are available in each theatre and scenario?
+## Scope rule
+
+This is the historical baseline for Theatre Commander. Keep the original ten types as the starting catalogue. Any additional unit type must be proposed as a deliberate Theatre Commander design extension, not silently inherited from a later A&A edition.
+
+## Reference
+
+The 1987 Classic component list identifies each country's set as infantry, tanks, fighters, bombers, transports, submarines, battleships and aircraft carriers, plus shared anti-aircraft guns and industrial complexes. The Classic rules catalogue these as ten types across land, air, naval and industrial pieces.
